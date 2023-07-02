@@ -17,7 +17,7 @@ body{
 
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    height: 2000px;
+    height: 2600px;
 }
 
 nav{
@@ -31,11 +31,16 @@ nav{
     z-index: 1;
     
 }
+nav button{
+    background-color: transparent;
+    border: none;
+}
 
 nav a{
     text-decoration: none;
     font-size: 30px;
     color: #43B9AA;
+    font-weight: bold;
 }
 
 .navBTN span{
@@ -76,7 +81,10 @@ nav a{
 
 .description div{
     display: flex;
-    gap: 30px;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+    padding-bottom: 10px;
     align-items: center;
     border-bottom: solid black 1px;
 }
@@ -103,7 +111,7 @@ nav a{
     align-items: center;
     position: relative;
     background-color: #3CA89A;
-    height: 40vh;
+    height: 52vh;
     top: 750px;
     margin-bottom: 100px;
 }
@@ -126,6 +134,86 @@ nav a{
     position: relative;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     gap: 50px;
     top: 750px;
 }
+
+.sorting-container h2{
+    font-size: 35px;
+}
+.sorting-container p{
+    font-size: 1vw;
+}
+
+.mergesort-container{
+    display: flex;
+    gap: 50px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 40px;
+    padding: 20px;
+    height: 30vh;
+    width: 100%;
+}
+
+.input-container form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#run , #reset{
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: #43B9AA solid;
+}
+#run:hover , #reset:hover{
+    border: solid black;
+    background-color:#43B9AA ;
+    transition: 0.4s;
+    color: white;
+}
+
+
+#arrayValues{
+    height: 40px;
+    width: 80%;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    height: 8vh;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: #3CA89A;
+    font-size: 30px;
+    font-weight: bold;
+}
+footer p{
+    color: black;
+    font-weight: 600;
+}
+
+
+
+

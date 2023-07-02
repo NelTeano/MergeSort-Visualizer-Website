@@ -5,6 +5,7 @@
     overflow-y: visible;
     overflow-x: hidden;
     background-color: #43B9AA;
+    border: solid black 1px;
   }
   
   .avcontainer{

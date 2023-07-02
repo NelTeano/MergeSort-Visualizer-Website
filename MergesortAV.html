@@ -13,11 +13,11 @@
 <body>
 <nav>
   <div>
-      <span><a href="#">Logo</a></span>
+      <span><a href="#">BSCS 2D</a></span>
   </div>
   <div class="navBTN">
-      <span>About</span>
-      <span>Contact Us</span>
+      <span><button id="aboutBTN">About</button></span>
+      <span><button id="sortBTN">Sort Now</button></span>
   </div>
 </nav>
 
@@ -83,6 +83,9 @@
   </div>
 </div>
 
+
+
+
 <div class="sorting-container">
   <div>
     <h2>Merge Sort</h2><br>
@@ -99,7 +102,7 @@
       <div id="container">
         <table class="headerTable">
           <tr>
-              <a id="settings" class="jsavsettings" href="#"></a>
+              <a id="settings" class="jsavsettings" href="#">dassdaasd</a>
             </td>
           </tr>
         </table>
@@ -111,48 +114,56 @@
       </div> 
     </div>
 
-    <div>
+    <div class="input-container">
       <form id="ssperform">
           <p>
-            <input id="run" type="button" name="run" />
-            <input id="reset" type="button" name="reset" />
-            <label id="arraysizeLabel" for="arraysize"></label>
+            <input id="run" type="button" name="run" value="RUN"/>
+            <input id="reset" type="button" name="reset" value="RESET"/><br><br>
+            <label id="arraysizeLabel" for="arraysize" style="margin-right: 40px;">Array Size : </label>
             <select id="arraysize"></select>
           </p>
           <p>
-            <label id="arrayValuesLabel" for="arrayValues"></label>
+            <label id="arrayValuesLabel" for="arrayValues">Array Values : </label><br><br>
             <input size="60" name="arrayValues" id="arrayValues" type="text" />
           </p>
         </form>
     </div>
   </div>
+  
+  <footer>
+    <div>
+      <span><a href="#">BSCS 2D</a></span>
+    </div>
+    <div >
+        <span>
+          <p>Created By : Teaño, Jonel &nbsp;|
+                Cantos, Shannon John,&nbsp;|
+                Alegre, Garret Jasper Lance,&nbsp;|
+                Magwili, Joshua&nbsp;|
+          </p>
+        </span>
+    </div>
+  </footer>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--container-->
+<script>
+const btn1 = document.getElementById('sortBTN');
+const btn2 = document.getElementById('aboutBTN');
+
+btn1.addEventListener('click', () => window.scrollTo({
+  top: 1400,
+  behavior: 'smooth',
+}));
+
+btn2.addEventListener('click', () => window.scrollTo({
+  top: 750,
+  behavior: 'smooth',
+}));
+
+</script>
+
 
 <script src="jquery.min.js"></script>
 <script src="jquery.migrate.min.js"></script>
