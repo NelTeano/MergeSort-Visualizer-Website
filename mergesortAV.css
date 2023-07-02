@@ -1,8 +1,10 @@
 #container {
+ 
     width: 800px;
     height: 610px;
     overflow-y: visible;
     overflow-x: hidden;
+    background-color: #43B9AA;
   }
   
   .avcontainer{

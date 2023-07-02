@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    height: 2000px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #43B9AA;
+}
+
+.navBTN span{
+    
+   background-color: #43B9AA;
+   border-radius: 30px;
+   margin-right: 20px;
+   padding: 10px 40px 10px 40px;
+   color: white;
+   font-size: 15px;
+}
+
+.billboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 320px;
+    height: 200px;
+    gap: 80px;
+
+}
+
+.billboard h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.billboard-info{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.description div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+.description .no-border{
+    border: none;
+}
+
+.img-container{
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
+    width: 500px;
+}
+.img-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    border: solid black 1px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    background-color: #3CA89A;
+    height: 40vh;
+    top: 750px;
+    margin-bottom: 100px;
+}
+.about h2{
+    font-size: 2vw;
+    color: white;
+}
+
+.about p{
+    font-size: 1.2vw;
+    text-align: center;
+    color: white;
+    
+}
+
+
+.sorting-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    top: 750px;
+}

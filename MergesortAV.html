@@ -7,39 +7,152 @@
   <link rel="stylesheet" href="odsaAV-min.css" type="text/css" />
   <link rel="stylesheet" href="odsaStyle-min.css" type="text/css" />
   <link rel="stylesheet" href="mergesortAV.css" type="text/css" />
+  <link rel="stylesheet" href="OwnStyling.css" type="text/css" />
 </head>
 
 <body>
-<div id="container">
-  <table class="headerTable">
-    <tr>
-      <td class="headerLeft"></td>
-      <td class="headerCenter avTitle"></td>
-      <td class="headerRight">
-        <input type="button" id="about" name="about" />
-        <a id="settings" class="jsavsettings" href="#"></a>
-      </td>
-    </tr>
-  </table>
+<nav>
+  <div>
+      <span><a href="#">Logo</a></span>
+  </div>
+  <div class="navBTN">
+      <span>About</span>
+      <span>Contact Us</span>
+  </div>
+</nav>
 
-  <form id="ssperform">
-    <p>
-      <input id="run" type="button" name="run" />
-      <input id="reset" type="button" name="reset" />
-      <label id="arraysizeLabel" for="arraysize"></label>
-      <select id="arraysize"></select>
-    </p>
-    <p>
-      <label id="arrayValuesLabel" for="arrayValues"></label>
-      <input size="60" name="arrayValues" id="arrayValues" type="text" />
-    </p>
-  </form>
-  <div class="avcontainer">
-    <span class="jsavcounter"></span>
-    <div class="jsavcontrols"></div>
-    <p class="jsavoutput jsavline"></p>
-  </div> <!--avcontainer-->
-</div> <!--container-->
+
+<div class="billboard">
+  <div>
+    <h2>Sorting Algorithms <br>using Javascript</h2>
+  </div>
+
+  <div class="billboard-info">
+      <div class="description">
+          <div>
+            <span>
+              <img src="./img/fireIcon.png" >
+            </span>
+            <span>
+              <h3>Fastest possible</h3>
+              <p>Our algorithms are as fast as possible, there is<br>
+                 no way someone did it better</p>
+              </span>
+          </div>  
+
+          <div>
+            <span>
+              <img src="./img/stackIcon.png" >
+            </span>
+            <span>
+              <h3>Fastest possible</h3>
+              <p>Each sorting algorithm has a clear description<br>
+                 to help you understand the concept</p>
+              </span>
+
+          </div>
+          
+          <div class="no-border">
+            <span>
+              <img src="./img/mobileIcon.png" >
+            </span>
+            <span>
+              <h3>Fastest possible</h3>
+              <p>You can use our website comfortably on<br> 
+                various devices, including phones and tablets</p>
+              </span>
+          </div>
+      </div>
+
+      <div class="img-container">
+          <img src="./img/sortlogo.png" >
+      </div>
+  </div>
+</div>
+
+<div class="about">
+  <div>
+    <h2>About <br>Sorting Algorithms</h2>
+  </div>
+  <div>
+    <p>Sorting algorithms are a fundamental part of computer science
+      and are<br> used to arrange elements in a particular order, typically
+     in ascending <br>or descending order. Sorting is a common operation performed
+      on lists,<br> arrays, or other data structures to improve search efficiency, 
+     facilitate data <br>analysis, or prepare data for further processing</p>
+  </div>
+</div>
+
+<div class="sorting-container">
+  <div>
+    <h2>Merge Sort</h2><br>
+    <p>Merge sort is a divide-and-conquer algorithm that recursively
+       divides the input list into smaller sublists until each sublist 
+       contains a single element.<br> It then merges these sublists back together,
+      repeatedly comparing the smallest elements and merging theminto a sorted
+      output list.<br>  Merge sort has a time complexity of O(n log n), making it
+       more efficient than the previous algorithms for large datasets.</p>
+  </div>
+
+  <div class="mergesort-container">
+    <div>
+      <div id="container">
+        <table class="headerTable">
+          <tr>
+              <a id="settings" class="jsavsettings" href="#"></a>
+            </td>
+          </tr>
+        </table>
+        <div class="avcontainer">
+          <span class="jsavcounter"></span>
+          <div class="jsavcontrols"></div>
+          <p class="jsavoutput jsavline"></p>
+        </div> <!--avcontainer-->
+      </div> 
+    </div>
+
+    <div>
+      <form id="ssperform">
+          <p>
+            <input id="run" type="button" name="run" />
+            <input id="reset" type="button" name="reset" />
+            <label id="arraysizeLabel" for="arraysize"></label>
+            <select id="arraysize"></select>
+          </p>
+          <p>
+            <label id="arrayValuesLabel" for="arrayValues"></label>
+            <input size="60" name="arrayValues" id="arrayValues" type="text" />
+          </p>
+        </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--container-->
 
 <script src="jquery.min.js"></script>
 <script src="jquery.migrate.min.js"></script>
