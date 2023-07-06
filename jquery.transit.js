@@ -1,18 +1,10 @@
-/*!
- * jQuery Transit - CSS3 transitions and transformations
- * (c) 2011-2012 Rico Sta. Cruz
- * MIT Licensed.
- *
- * http://ricostacruz.com/jquery.transit
- * http://github.com/rstacruz/jquery.transit
- */
+
 
 (function($) {
   $.transit = {
     version: "0.9.9",
 
     // Map of $.css() keys to values for 'transitionProperty'.
-    // See https://developer.mozilla.org/en/CSS/CSS_transitions#Properties_that_can_be_animated
     propertyMap: {
       marginLeft    : 'margin',
       marginRight   : 'margin',
